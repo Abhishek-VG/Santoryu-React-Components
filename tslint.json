@@ -1,0 +1,23 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-config-prettier"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "./**/*.js",
+            "types/global.d.ts",
+            "node_modules/**/*.ts",
+            "coverage/lcov-report/*.js"
+        ]
+    },
+    "jsRules": {},
+    "rules": {
+        "no-console": true,
+        "no-eval": true,
+        "no-debugger": true
+    },
+    "rulesDirectory": []
+}
