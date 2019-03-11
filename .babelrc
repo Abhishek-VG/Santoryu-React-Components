@@ -1,10 +1,4 @@
 {
-    "presets": [
-        "@babel/preset-env",
-        "@babel/preset-react",
-        "@babel/preset-typescript"
-    ],
-    // "plugins": [
-    //     "@babel/plugin-transform-arrow-functions"
-    // ]
+  "presets": ["@babel/env", "@babel/typescript", "@babel/react"],
+  "plugins": ["@babel/plugin-syntax-dynamic-import"]
 }
